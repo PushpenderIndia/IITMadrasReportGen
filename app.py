@@ -240,7 +240,7 @@ with st.sidebar:
     st.header("1. Front Page Details")
     title = st.text_input("Main Title", "Maximizing Revenue and Optimizing Inventory Management through Sales Analysis in E-commerce")
     subtitle = st.text_input("Subtitle", "A Final Report for the Secondary BDM Capstone Project")
-    name = st.text_input("Student Name", "Anupratee Bharadwaj")
+    name = st.text_input("Student Name", "Pushpender Singh")
     roll_number = st.text_input("Roll Number", "21f1001850")
 
 # --- MAIN AREA: CONTENT BUILDER ---
