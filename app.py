@@ -163,11 +163,11 @@ class PDFGenerator:
         
         if logo_path:
             # Aspect ratio of the logo is roughly 1:1 in the circle
-            im = Image(logo_path, width=2.8*inch, height=2.8*inch)
+            im = Image(logo_path, width=1.8*inch, height=1.8*inch)
             im.hAlign = 'CENTER'
             story.append(im)
         else:
-            story.append(Spacer(1, 2.8*inch)) # Placeholder if logo fails
+            story.append(Spacer(1, 1.8*inch)) # Placeholder if logo fails
 
         # D. Institute Details Section (Pushed to bottom via Spacer)
         story.append(Spacer(1, 1.8*inch)) # Adjust this spacer to push text down near footer
